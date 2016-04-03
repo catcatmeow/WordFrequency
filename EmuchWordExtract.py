@@ -52,10 +52,7 @@ print("\n" + "="*40)
 
 ####将切好的分词进行词频统计，以 单词：次数 的键值对存放于statistic词典中。     
 statistic=countWords(fechedwords)
-###打印统计好的词频
-# statistic_keys=statistic.keys()
-# for x in statistic_keys:
-#     print(x,statistic.get(x))
+
 #####排序并打印
 sortFrequency(statistic)
 
